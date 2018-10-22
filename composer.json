@@ -1,0 +1,24 @@
+{
+    "name": "waughj/composer-template",
+    "description": "Template for easily making composer projects.",
+    "keywords": [ "composer", "template" ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.2"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaughJ\\ComposerTemplate\\": "src/"
+        }
+    }
+}
