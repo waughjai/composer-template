@@ -2,7 +2,7 @@
     "name": "waughj/composer-template",
     "description": "Template for easily making composer projects.",
     "keywords": [ "composer", "template" ],
-    "license": "GPL-2.0-or-later",
+    "license": "AGPL-3.0-or-later",
     "authors": [
         {
             "name": "Jaimeson Waugh",
@@ -11,7 +11,7 @@
     ],
     "type": "library",
     "require": {
-		"php": ">=7.0"
+		"php": ">=7.2"
     },
     "require-dev": {
 		"phpunit/phpunit": "*"

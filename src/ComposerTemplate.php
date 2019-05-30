@@ -1,12 +1,11 @@
 <?php
 
 declare( strict_types = 1 );
-namespace WaughJ\ComposerTemplate
+namespace WaughJ\ComposerTemplate;
+
+class ComposerTemplate
 {
-	class ComposerTemplate
+	public function __construct()
 	{
-		public function __construct()
-		{
-		}
 	}
 }
